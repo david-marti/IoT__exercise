@@ -1,0 +1,12 @@
+{
+    "name": "node_red_mqtt_example",
+    "description": "Flow to read from mqtt broker and show two charts of the sensors",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "node_red/mqtt_example_flow.json",
+            "credentialsFile": "node_red/mqtt_example_flow_cred.json"
+        }
+    }
+}
